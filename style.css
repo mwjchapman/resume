@@ -1,3 +1,50 @@
+body {   
+    background-color: #D0D0D0;
+    background-image: url('nyc-in-black-and-white-1218052.jpg');
+    background-size: contain; 
+    background-position-x: right;  
+    background-repeat: no-repeat;
+    height: 600px; 
+    
+}
+
+
+.myTitle {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 18px;
+   font-family: 'Pontano Sans', sans-serif; 
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 22px;
+    
+}
 h1 {
     margin: auto;
 }
+h2 {
+    font-family: 'Pontano Sans', sans-serif; 
+}
+
+p, li {
+    font-family: 'Pontano Sans', sans-serif; 
+}
+.flex-container  {
+    position: absolute;
+    padding-left: 450px;
+}
+.me {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 26px;
+    margin-left: 30%;
+}
+ul {
+    list-style-position: inside;
+  }
+
+
