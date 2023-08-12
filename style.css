@@ -1,23 +1,25 @@
-body {   
-    background-color: #D0D0D0;
+body {    
+    background-color: #CECECE;
+}
+.backgroundImg{
     background-image: url('nyc-in-black-and-white-1218052.jpg');
     background-size: contain; 
-    background-position-x: right;  
+    position: absolute;
+    top: 100px;
+    right: -150px;
     background-repeat: no-repeat;
-    height: 600px; 
-    
+    height: 600px;
+    width: 600px;
 }
 
-
 .myTitle {
-    position: sticky;
-    top: 10px;
     width: 100%;
+    background-color: #CECECE;
     border-bottom-style: solid;
     border-width: 1px;
     border-color: black;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 18px;
    font-family: 'Pontano Sans', sans-serif; 
     font-family: 'Stint Ultra Expanded', cursive;
@@ -34,17 +36,39 @@ h2 {
 p, li {
     font-family: 'Pontano Sans', sans-serif; 
 }
-.flex-container  {
-    position: absolute;
-    padding-left: 450px;
-}
-.me {
+.me  {
     font-family: 'Pontano Sans', sans-serif;
-    font-size: 26px;
-    margin-left: 30%;
+    position: fixed;
+        left: 35%;
+        top: 40%;
 }
-ul {
-    list-style-position: inside;
-  }
+
+@media only screen and (min-width: 320px) and (max-width: 920px) {
+    body {
+      background: #CECECE;
+    }
+    .backgroundImg{
+        display: none;
+    }   
+    .myTitle{
+        position: static;
+        /*width: 100%;*/
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: black;
+        text-align: center;
+        font-size: 16px;
+    }
+    .me {
+        position: static;
+        left: initial;
+        top: initial;
+        
+    }
+    .sections {
+        margin-top: 2%;
+        
+    }
+}
 
 
